@@ -1,0 +1,25 @@
+{
+  "name": "ecommerce-ui-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "End-to-end UI test automation project for an e-commerce application using Cypress.",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personal:Saenz00/ecommerce-ui-automation.git"
+  },
+  "keywords": [
+    "qa-automation",
+    "cypress",
+    "end-to-end-testing",
+    "saucedemo"
+  ],
+  "author": "Felipe de Jesús Ramírez Sáenz",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^15.18.1"
+  }
+}
