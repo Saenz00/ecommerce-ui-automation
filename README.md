@@ -13,6 +13,18 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - Node.js
 - Git and GitHub
 
+## Current Coverage
+
+### Authentication
+
+- Valid login
+- Locked-out user
+- Invalid password
+- Required username validation
+- Required password validation
+
+**Automated result:** 5 tests passed in Google Chrome.
+
 ## Project Status
 
-Initial project setup in progress. Test scope and strategy are being defined.
+Authentication test design, manual execution, and Cypress automation are complete.
