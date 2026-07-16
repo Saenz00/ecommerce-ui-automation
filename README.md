@@ -31,10 +31,16 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - Price sorting from low to high
 - Price sorting from high to low
 
-**Regression result:** 10 automated tests passed in Google Chrome.
+### Shopping Cart
+
+- Add one product
+- Add multiple products
+- Validate selected product information
+- Remove one product
+- Remove all products
+
+**Regression result:** 15 automated tests passed in Google Chrome.
 
 ## Project Status
 
-Authentication and product inventory test design, manual execution, and Cypress automation are complete.
-
-Authentication test design, manual execution, and Cypress automation are complete.
+Authentication, product inventory, and shopping cart test design, manual execution, and Cypress automation are complete.
