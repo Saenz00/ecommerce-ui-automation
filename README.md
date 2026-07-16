@@ -23,8 +23,18 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - Required username validation
 - Required password validation
 
-**Automated result:** 5 tests passed in Google Chrome.
+### Product Inventory
+
+- Product information display
+- Name sorting from A to Z
+- Name sorting from Z to A
+- Price sorting from low to high
+- Price sorting from high to low
+
+**Regression result:** 10 automated tests passed in Google Chrome.
 
 ## Project Status
+
+Authentication and product inventory test design, manual execution, and Cypress automation are complete.
 
 Authentication test design, manual execution, and Cypress automation are complete.
