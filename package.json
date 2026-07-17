@@ -4,6 +4,7 @@
   "private": true,
   "description": "End-to-end UI test automation project for an e-commerce application using Cypress.",
   "scripts": {
+    "test": "cypress run --browser chrome",
     "cy:open": "cypress open",
     "cy:run": "cypress run"
   },
