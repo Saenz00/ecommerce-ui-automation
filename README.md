@@ -39,8 +39,16 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - Remove one product
 - Remove all products
 
-**Regression result:** 15 automated tests passed in Google Chrome.
+### Checkout
+
+- Required first name validation
+- Required last name validation
+- Required postal code validation
+- Order overview and totals
+- Successful order completion
+
+**Regression result:** 20 automated tests passed in Google Chrome.
 
 ## Project Status
 
-Authentication, product inventory, and shopping cart test design, manual execution, and Cypress automation are complete.
+Authentication, product inventory, shopping cart, and checkout test design, manual execution, and Cypress automation are complete.
