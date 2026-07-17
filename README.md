@@ -47,8 +47,13 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - Order overview and totals
 - Successful order completion
 
-**Regression result:** 20 automated tests passed in Google Chrome.
+### Session Management
+
+- User logout
+- Protected page access without authentication
+
+**Regression result:** 22 automated tests passed in Google Chrome.
 
 ## Project Status
 
-Authentication, product inventory, shopping cart, and checkout test design, manual execution, and Cypress automation are complete.
+The planned authentication, inventory, shopping cart, checkout, and session scenarios have been designed, executed manually, and automated with Cypress.
