@@ -2,6 +2,8 @@
 
 End-to-end UI test automation project for the [SauceDemo](https://www.saucedemo.com/) e-commerce application using Cypress and JavaScript.
 
+[![E2E Tests](https://github.com/Saenz00/ecommerce-ui-automation/actions/workflows/e2e-tests.yml/badge.svg)](https://github.com/Saenz00/ecommerce-ui-automation/actions/workflows/e2e-tests.yml)
+
 ## Objective
 
 Demonstrate a structured QA workflow that includes test planning, manual test design, UI automation, execution evidence, and continuous integration.
