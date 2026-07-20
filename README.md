@@ -15,6 +15,16 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - Node.js
 - Git and GitHub
 
+## Documentation
+
+- [Requirements Analysis](docs/requirements-analysis.md)
+- [Test Scope](docs/test-scope.md)
+- [Test Strategy](docs/test-strategy.md)
+- [Test Plan](docs/test-plan.md)
+- [Manual Test Cases](docs/test-cases/)
+- [Automation Results](docs/test-results/)
+- [Test Summary Report](docs/test-summary-report.md)
+
 ## Current Coverage
 
 ### Authentication
