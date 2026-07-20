@@ -33,3 +33,12 @@ jobs:
 
       - name: Run Cypress tests
         run: npm test
+
+      - name: Upload failure screenshots
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: cypress-failure-screenshots
+          path: cypress/screenshots
+          if-no-files-found: ignore
+          retention-days: 7
