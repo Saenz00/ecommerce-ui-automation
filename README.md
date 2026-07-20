@@ -14,6 +14,7 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - JavaScript
 - Node.js
 - Git and GitHub
+- GitHub Actions
 
 ## Documentation
 
@@ -24,6 +25,43 @@ Demonstrate a structured QA workflow that includes test planning, manual test de
 - [Manual Test Cases](docs/test-cases/)
 - [Automation Results](docs/test-results/)
 - [Test Summary Report](docs/test-summary-report.md)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 22
+- npm
+- Google Chrome
+- Git
+
+### Installation
+
+```bash
+git clone https://github.com/Saenz00/ecommerce-ui-automation.git
+cd ecommerce-ui-automation
+npm ci
+```
+
+### Running the Tests
+
+Run the complete regression suite in Google Chrome:
+
+```bash
+npm test
+```
+
+Open Cypress in interactive mode:
+
+```bash
+npm run cy:open
+```
+
+Run Cypress headlessly with its default browser:
+
+```bash
+npm run cy:run
+```
 
 ## Current Coverage
 
