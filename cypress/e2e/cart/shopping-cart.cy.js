@@ -25,7 +25,7 @@ describe("Shopping Cart", () => {
 
         cy.get('[data-test="shopping-cart-badge"]')
             .should("be.visible")
-            .and("have.text", "1");
+            .and("have.text", "2");
 
         cy.location("pathname").should("eq", "/inventory.html");
     });
