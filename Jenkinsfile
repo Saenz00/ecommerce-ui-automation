@@ -1,9 +1,9 @@
-// Jenkinsfile — prueba inicial con Cypress
+// Jenkinsfile — Cypress test pipeline
 pipeline {
-    // Imagen oficial de Cypress con Node, navegadores y dependencias del sistema
+    // Official Cypress image with Node, browsers and system dependencies
     agent {
         docker {
-            image 'cypress/browsers:latest'   // cuando funcione, fija una versión concreta de Docker Hub
+            image 'cypress/browsers:latest'   // once it works, pin a specific version from Docker Hub
             args  '--ipc=host'
         }
     }
@@ -21,16 +21,16 @@ pipeline {
     }
 
     stages {
-        stage('Instalar dependencias') {
+        stage('Install dependencies') {
             steps {
                 sh 'npm ci'
                 sh 'npx cypress verify'
             }
         }
 
-        stage('Pruebas Cypress') {
+        stage('Cypress tests') {
             steps {
-                // Si hay pruebas fallidas, el build queda en amarillo (inestable) y se publican los resultados igual
+                // Failed tests mark the build as UNSTABLE (yellow) and results are still published
                 catchError(buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
                     sh '''
                         npx cypress run \
